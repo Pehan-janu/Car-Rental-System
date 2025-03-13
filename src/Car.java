@@ -6,12 +6,12 @@ public class Car {
     private boolean isAvailable;
 
     //creating constructor for car class
-    public car(String carId, String Model, String Brand, double basedPricePerDay,boolean isAvailabe){
+    public Car(String carId, String Model, String Brand, double basedPricePerDay,boolean isAvailabe){
         this.carId = carId;
         this.Model = Model;
         this.Brand = Brand;
         this.basedPricePerDay = basedPricePerDay;
-        this.isAvailable = isAvailabe;
+        this.isAvailable = true;
     }
 
     public String getCarId(){
